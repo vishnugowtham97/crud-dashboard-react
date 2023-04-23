@@ -11,20 +11,18 @@ import MentorJourney from "./Journey/MentorJourney/index";
 function App() {
   return (
     <div id="main-page-container" className="app-container">
-      <div id="main-page-header-bar" className="main-page-header">
-        <img
-          className="brand-logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDPE4oxjG9QwPzJ1NAvV_id_gpLeB8V89uYA&usqp=CAU"
-          alt="main-page-brand-logo"
-        />
-        <div className="para-text">Zen Class Dashboard</div>
-        <hr className="my-hr" />
-      </div>
       <div
         className="main-page-content-container"
         id="main-page-content-container"
       >
         <div className="side-bar-area">
+          <div>
+            <img
+              className="brand-logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDPE4oxjG9QwPzJ1NAvV_id_gpLeB8V89uYA&usqp=CAU"
+              alt="main-page-brand-logo"
+            />
+          </div>
           <br />
           <nav className="nav-bar-jouney" id="nav-bar-jouney">
             <ul>
@@ -43,7 +41,13 @@ function App() {
           </nav>
         </div>
         <div id="content-side-area" className="content-side-area">
+          <div id="main-page-header-bar" className="main-page-header">
+            <div className="para-text">Zen Class Dashboard</div>
+          </div>
           <h4 className="heading tag">WELCOME TO THE ZEN CLASS DASHBOARD</h4>
+          <h5 className="heading tag">
+            Click the Student journey and Mentor jouney to add the list
+          </h5>
           <hr />
           <Routes>
             <Route path="students" Component={StudentJourney}>

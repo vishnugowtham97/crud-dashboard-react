@@ -7,7 +7,7 @@ function ManageMentors() {
       <h1>Manage Student</h1>
       <hr />
       <p className="content">
-        Manage Mentors Details access was denied
+        Managing Mentors Details access was denied
         <br />
         please sign in
       </p>

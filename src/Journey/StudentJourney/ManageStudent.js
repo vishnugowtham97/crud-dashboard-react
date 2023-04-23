@@ -7,7 +7,7 @@ function ManageStudent() {
       <h1>Manage Student</h1>
       <hr />
       <p className="content">
-        Manage Student Details access was denied
+        Managing Student Details access was denied
         <br />
         please sign in
       </p>
